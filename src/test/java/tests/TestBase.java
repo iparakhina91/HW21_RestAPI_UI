@@ -32,9 +32,7 @@ public class TestBase {
             projectId = "2301",
             allureTestOpsSession = "fad3bc4c-c5ae-4f8f-a8eb-82be01e31c45",
             xsrfToken = "439586aa-f82e-401b-8495-9dacda7dbe74";
-
     public static String testCaseId;
-
 
     static WebDriverConfig webDriverConfig = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
     static AuthConfig authConfig = ConfigFactory.create(AuthConfig.class, System.getProperties());
@@ -46,6 +44,7 @@ public class TestBase {
         Configuration.browserSize = webDriverConfig.browserSize();
         Configuration.baseUrl = webDriverConfig.baseUrl();
         RestAssured.baseURI = "https://allure.autotests.cloud";
+        Configuration.pageLoadStrategy = "eager";
         String remoteUrl = "https://" + authConfig.remote_username() + ":" + authConfig.remote_password()
                 + "@" + webDriverConfig.remoteUrl() + "/wd/hub";
         System.out.println(remoteUrl);
