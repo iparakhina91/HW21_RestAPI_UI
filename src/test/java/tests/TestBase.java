@@ -40,7 +40,6 @@ public class TestBase {
     @BeforeAll
     static void configuration() {
         Configuration.browser = webDriverConfig.browser();
-        Configuration.holdBrowserOpen = true;
         Configuration.browserVersion = webDriverConfig.browserVersion();
         Configuration.browserSize = webDriverConfig.browserSize();
         Configuration.baseUrl = webDriverConfig.baseUrl();
