@@ -25,7 +25,6 @@ public class TestCasePage {
             testCaseComment = $(".Comment"),
             editTestCaseMenu = $(".Menu__trigger"),
             deleteItem = $(".Menu__item_danger "),
-            sideMenu = $("[data-testid=sidemenu]"),
             submitDeleteButton = $(".TestCaseDeleteModal__confirm-button");
 
 
