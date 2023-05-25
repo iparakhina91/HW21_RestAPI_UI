@@ -5,6 +5,7 @@ import com.codeborne.selenide.selector.ByText;
 import tests.TestData;
 
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 
@@ -24,6 +25,7 @@ public class TestCasePage {
             testCaseComment = $(".Comment"),
             editTestCaseMenu = $(".Menu__trigger"),
             deleteItem = $(".Menu__item_danger "),
+            sideMenu = $("[data-testid=sidemenu]"),
             submitDeleteButton = $(".TestCaseDeleteModal__confirm-button");
 
 
