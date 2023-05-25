@@ -27,12 +27,13 @@ import static spec.Specs.requestSpec;
 import static spec.Specs.responseSuccess;
 import static tests.TestData.testCaseName;
 
+@ExtendWith({AllureJunit5.class})
 public class TestBase {
 
     public static String
             projectId = "2301",
-            allureTestOpsSession = "16838bf4-146e-47ac-b77a-f1ba175c6533",
-            xsrfToken = "6006f3ab-c04d-4a1b-8a21-402edb6e3889";
+            allureTestOpsSession = "1632fb77-54e3-4fa0-ba64-ff5b57594c9a",
+            xsrfToken = "d14799d9-dc1a-4c54-ac1f-30b82ea8950c";
 
     public static String testCaseId;
 
