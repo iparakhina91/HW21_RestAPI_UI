@@ -22,8 +22,6 @@ public class TestCasePage {
             commentArea = $(".MarkdownTextarea__edit"),
             submitCommentButton = $(".Button_style_primary"),
             testCaseComment = $(".Comment"),
-            editTagIcon = $("[data-testid='button__edit_section']"),
-            editTestCaseButton = $("Button_shape_round Menu__trigger "),
             editTestCaseMenu = $(".Menu__trigger"),
             deleteItem = $(".Menu__item_danger "),
             submitDeleteButton = $(".TestCaseDeleteModal__confirm-button");

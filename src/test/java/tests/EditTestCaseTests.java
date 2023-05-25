@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -11,6 +12,10 @@ import static tests.TestData.*;
 import static tests.TestData.testCaseComment;
 
 @Tag("editing")
+@Feature("Edit testcase")
+@Story("Edit created with API test")
+@Owner("korovinaiyu")
+@Severity(SeverityLevel.NORMAL)
 public class EditTestCaseTests extends TestBase {
 
     TestCasePage testCasePage = new TestCasePage();
