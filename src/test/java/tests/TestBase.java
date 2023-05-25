@@ -27,7 +27,6 @@ import static spec.Specs.requestSpec;
 import static spec.Specs.responseSuccess;
 import static tests.TestData.testCaseName;
 
-@ExtendWith({AllureJunit5.class})
 public class TestBase {
 
     public static String
