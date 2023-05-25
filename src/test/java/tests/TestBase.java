@@ -32,8 +32,8 @@ public class TestBase {
 
     public static String
             projectId = "2301",
-            allureTestOpsSession = "1632fb77-54e3-4fa0-ba64-ff5b57594c9a",
-            xsrfToken = "d14799d9-dc1a-4c54-ac1f-30b82ea8950c";
+            allureTestOpsSession = "fad3bc4c-c5ae-4f8f-a8eb-82be01e31c45",
+            xsrfToken = "439586aa-f82e-401b-8495-9dacda7dbe74";
 
     public static String testCaseId;
 
